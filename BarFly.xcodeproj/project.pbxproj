@@ -9,26 +9,11 @@
 /* Begin PBXBuildFile section */
 		6D28956A18AAAD0B00D22269 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D28956918AAAD0B00D22269 /* Cocoa.framework */; };
 		6D28957418AAAD0B00D22269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D28957218AAAD0B00D22269 /* InfoPlist.strings */; };
-		6D28957618AAAD0B00D22269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D28957518AAAD0B00D22269 /* main.m */; };
-		6D28957A18AAAD0B00D22269 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6D28957818AAAD0B00D22269 /* Credits.rtf */; };
-		6D28957D18AAAD0B00D22269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D28957C18AAAD0B00D22269 /* AppDelegate.m */; };
-		6D28958018AAAD0B00D22269 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D28957E18AAAD0B00D22269 /* MainMenu.xib */; };
-		6D28958218AAAD0B00D22269 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D28958118AAAD0B00D22269 /* Images.xcassets */; };
-		6D28958918AAAD0B00D22269 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D28958818AAAD0B00D22269 /* XCTest.framework */; };
-		6D28958A18AAAD0B00D22269 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D28956918AAAD0B00D22269 /* Cocoa.framework */; };
-		6D28959218AAAD0B00D22269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D28959018AAAD0B00D22269 /* InfoPlist.strings */; };
-		6D28959418AAAD0B00D22269 /* BarFlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D28959318AAAD0B00D22269 /* BarFlyTests.m */; };
+		6D28959E18AAAD4300D22269 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D28959D18AAAD4300D22269 /* OpenGL.framework */; };
+		6D2895A018AAAD5800D22269 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D28959F18AAAD5800D22269 /* SDL2.framework */; };
+		6D2895A318AAADAF00D22269 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D2895A118AAADAF00D22269 /* main.cpp */; };
+		6D2895A618AAAE4B00D22269 /* SDLGLApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D2895A418AAAE4B00D22269 /* SDLGLApp.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6D28958B18AAAD0B00D22269 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D28955E18AAAD0B00D22269 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D28956518AAAD0B00D22269;
-			remoteInfo = BarFly;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6D28956618AAAD0B00D22269 /* BarFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,18 +23,12 @@
 		6D28956E18AAAD0B00D22269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D28957118AAAD0B00D22269 /* BarFly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarFly-Info.plist"; sourceTree = "<group>"; };
 		6D28957318AAAD0B00D22269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6D28957518AAAD0B00D22269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D28957718AAAD0B00D22269 /* BarFly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarFly-Prefix.pch"; sourceTree = "<group>"; };
-		6D28957918AAAD0B00D22269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		6D28957B18AAAD0B00D22269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6D28957C18AAAD0B00D22269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6D28957F18AAAD0B00D22269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		6D28958118AAAD0B00D22269 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6D28958718AAAD0B00D22269 /* BarFlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarFlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D28958818AAAD0B00D22269 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6D28958F18AAAD0B00D22269 /* BarFlyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarFlyTests-Info.plist"; sourceTree = "<group>"; };
-		6D28959118AAAD0B00D22269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6D28959318AAAD0B00D22269 /* BarFlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarFlyTests.m; sourceTree = "<group>"; };
+		6D28959D18AAAD4300D22269 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6D28959F18AAAD5800D22269 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = "../../../sdks-libs/sdl2/SDL2.framework"; sourceTree = "<group>"; };
+		6D2895A118AAADAF00D22269 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D2895A418AAAE4B00D22269 /* SDLGLApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDLGLApp.cpp; sourceTree = "<group>"; };
+		6D2895A518AAAE4B00D22269 /* SDLGLApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLGLApp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,16 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D2895A018AAAD5800D22269 /* SDL2.framework in Frameworks */,
+				6D28959E18AAAD4300D22269 /* OpenGL.framework in Frameworks */,
 				6D28956A18AAAD0B00D22269 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D28958418AAAD0B00D22269 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D28958A18AAAD0B00D22269 /* Cocoa.framework in Frameworks */,
-				6D28958918AAAD0B00D22269 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				6D28956F18AAAD0B00D22269 /* BarFly */,
-				6D28958D18AAAD0B00D22269 /* BarFlyTests */,
 				6D28956818AAAD0B00D22269 /* Frameworks */,
 				6D28956718AAAD0B00D22269 /* Products */,
 			);
@@ -87,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				6D28956618AAAD0B00D22269 /* BarFly.app */,
-				6D28958718AAAD0B00D22269 /* BarFlyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +65,8 @@
 		6D28956818AAAD0B00D22269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D28959F18AAAD5800D22269 /* SDL2.framework */,
+				6D28959D18AAAD4300D22269 /* OpenGL.framework */,
 				6D28956918AAAD0B00D22269 /* Cocoa.framework */,
 				6D28958818AAAD0B00D22269 /* XCTest.framework */,
 				6D28956B18AAAD0B00D22269 /* Other Frameworks */,
@@ -115,11 +87,10 @@
 		6D28956F18AAAD0B00D22269 /* BarFly */ = {
 			isa = PBXGroup;
 			children = (
-				6D28957B18AAAD0B00D22269 /* AppDelegate.h */,
-				6D28957C18AAAD0B00D22269 /* AppDelegate.m */,
-				6D28957E18AAAD0B00D22269 /* MainMenu.xib */,
-				6D28958118AAAD0B00D22269 /* Images.xcassets */,
 				6D28957018AAAD0B00D22269 /* Supporting Files */,
+				6D2895A118AAADAF00D22269 /* main.cpp */,
+				6D2895A418AAAE4B00D22269 /* SDLGLApp.cpp */,
+				6D2895A518AAAE4B00D22269 /* SDLGLApp.h */,
 			);
 			path = BarFly;
 			sourceTree = "<group>";
@@ -129,27 +100,6 @@
 			children = (
 				6D28957118AAAD0B00D22269 /* BarFly-Info.plist */,
 				6D28957218AAAD0B00D22269 /* InfoPlist.strings */,
-				6D28957518AAAD0B00D22269 /* main.m */,
-				6D28957718AAAD0B00D22269 /* BarFly-Prefix.pch */,
-				6D28957818AAAD0B00D22269 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6D28958D18AAAD0B00D22269 /* BarFlyTests */ = {
-			isa = PBXGroup;
-			children = (
-				6D28959318AAAD0B00D22269 /* BarFlyTests.m */,
-				6D28958E18AAAD0B00D22269 /* Supporting Files */,
-			);
-			path = BarFlyTests;
-			sourceTree = "<group>";
-		};
-		6D28958E18AAAD0B00D22269 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D28958F18AAAD0B00D22269 /* BarFlyTests-Info.plist */,
-				6D28959018AAAD0B00D22269 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,24 +124,6 @@
 			productReference = 6D28956618AAAD0B00D22269 /* BarFly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6D28958618AAAD0B00D22269 /* BarFlyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D28959A18AAAD0B00D22269 /* Build configuration list for PBXNativeTarget "BarFlyTests" */;
-			buildPhases = (
-				6D28958318AAAD0B00D22269 /* Sources */,
-				6D28958418AAAD0B00D22269 /* Frameworks */,
-				6D28958518AAAD0B00D22269 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D28958C18AAAD0B00D22269 /* PBXTargetDependency */,
-			);
-			name = BarFlyTests;
-			productName = BarFlyTests;
-			productReference = 6D28958718AAAD0B00D22269 /* BarFlyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,11 +132,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Culprit Games";
-				TargetAttributes = {
-					6D28958618AAAD0B00D22269 = {
-						TestTargetID = 6D28956518AAAD0B00D22269;
-					};
-				};
 			};
 			buildConfigurationList = 6D28956118AAAD0B00D22269 /* Build configuration list for PBXProject "BarFly" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -220,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				6D28956518AAAD0B00D22269 /* BarFly */,
-				6D28958618AAAD0B00D22269 /* BarFlyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,17 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D28957418AAAD0B00D22269 /* InfoPlist.strings in Resources */,
-				6D28958218AAAD0B00D22269 /* Images.xcassets in Resources */,
-				6D28957A18AAAD0B00D22269 /* Credits.rtf in Resources */,
-				6D28958018AAAD0B00D22269 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D28958518AAAD0B00D22269 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D28959218AAAD0B00D22269 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,58 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D28957D18AAAD0B00D22269 /* AppDelegate.m in Sources */,
-				6D28957618AAAD0B00D22269 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D28958318AAAD0B00D22269 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D28959418AAAD0B00D22269 /* BarFlyTests.m in Sources */,
+				6D2895A618AAAE4B00D22269 /* SDLGLApp.cpp in Sources */,
+				6D2895A318AAADAF00D22269 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6D28958C18AAAD0B00D22269 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6D28956518AAAD0B00D22269 /* BarFly */;
-			targetProxy = 6D28958B18AAAD0B00D22269 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6D28957218AAAD0B00D22269 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6D28957318AAAD0B00D22269 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6D28957818AAAD0B00D22269 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D28957918AAAD0B00D22269 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		6D28957E18AAAD0B00D22269 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D28957F18AAAD0B00D22269 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		6D28959018AAAD0B00D22269 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D28959118AAAD0B00D22269 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -384,8 +259,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/shaunmitchell/sdks-libs/sdl2",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarFly/BarFly-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/shaunmitchell/sdks-libs/sdl2/SDL2.framework/Headers",
+				);
 				INFOPLIST_FILE = "BarFly/BarFly-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -397,51 +281,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/shaunmitchell/sdks-libs/sdl2",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarFly/BarFly-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/shaunmitchell/sdks-libs/sdl2/SDL2.framework/Headers",
+				);
 				INFOPLIST_FILE = "BarFly/BarFly-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		6D28959B18AAAD0B00D22269 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarFly.app/Contents/MacOS/BarFly";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarFly/BarFly-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BarFlyTests/BarFlyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6D28959C18AAAD0B00D22269 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarFly.app/Contents/MacOS/BarFly";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarFly/BarFly-Prefix.pch";
-				INFOPLIST_FILE = "BarFlyTests/BarFlyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -462,14 +315,6 @@
 			buildConfigurations = (
 				6D28959818AAAD0B00D22269 /* Debug */,
 				6D28959918AAAD0B00D22269 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		6D28959A18AAAD0B00D22269 /* Build configuration list for PBXNativeTarget "BarFlyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D28959B18AAAD0B00D22269 /* Debug */,
-				6D28959C18AAAD0B00D22269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
